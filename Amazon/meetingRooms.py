@@ -9,7 +9,6 @@
 # Input: [[7,10],[2,4]]
 # Output: true
 
-import heapq
 class Solution(object):
     def canAttendMeetings(self, intervals):
         intervals.sort()
